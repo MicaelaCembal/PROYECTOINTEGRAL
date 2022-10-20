@@ -13,7 +13,7 @@ public class Pelicula
     private string _imagen1;
     private string _imagen2;
  
-    public Pelicula(int idPelicula,string nombre, string descripcion, datetime fechaCreacion, int _duracion, int _cantPeliculas,string _imagen1, string _imagen2)
+    public Pelicula(int idPelicula,string nombre, string descripcion, datetime fechaCreacion, int duracion, int cantPeliculas,string imagen1, string imagen2)
         {
            _idPelicula= idPelicula;
            _nombre= nombre;
@@ -59,36 +59,56 @@ public class Pelicula
             _descripcion = value;
         }
     }
-     public string Camiseta
+     public datetime FechaCreacion
     {
         get
         {
-            return _camiseta;
+            return _fechaCreacion;
         }
         set{
-            _camiseta = value;
+            _fechaCreacion = value;
         }
     }
-    public string Continente
+    public int Duracion
     {
         get
         {
-            return _continente;
+            return _duracion;
         }
         set{
-            _continente = value;
+            _duracion = value;
         }
     }
-     public int CopasGanadas
+     public int CantPeliculas
     {
         get
         {
-            return _copasGanadas;
+            return _cantPeliculas;
         }
         set{
-            _copasGanadas = value;
+            _cantPeliculas = value;
         }
 
+    }
+    public string Imagen1
+    {
+        get
+        {
+            return _imagen1;
+        }
+        set{
+            _imagen1 = value;
+        }
+    }
+    public string Imagen2
+    {
+        get
+        {
+            return _imagen2;
+        }
+        set{
+            _imagen2 = value;
+        }
     }
 
 
