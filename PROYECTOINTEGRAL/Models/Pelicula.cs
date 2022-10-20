@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-namespace TP06.Models{
+namespace PROYECTOINTEGRAL.Models{
 
 public class Pelicula
 {
