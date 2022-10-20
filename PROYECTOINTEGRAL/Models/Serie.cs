@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace PROYECTOINTEGRAL.Models{
 
-public class Pelicula
+public class Serie
 {
     private int _idSerie;
     private string _nombre;
@@ -12,7 +12,7 @@ public class Pelicula
     private string _imagen1;
     private string _imagen2;
  
-    public Pelicula(int idSerie,string nombre, string descripcion, datetime fechaCreacion, int cantCapitulos,string imagen1, string imagen2)
+    public Serie(int idSerie,string nombre, string descripcion, datetime fechaCreacion, int cantCapitulos,string imagen1, string imagen2)
         {
            _idSerie= idSerie;
            _nombre= nombre;

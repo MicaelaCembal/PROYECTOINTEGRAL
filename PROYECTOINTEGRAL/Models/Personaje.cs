@@ -12,9 +12,8 @@ public class Personaje
     private string _imagen2;
     private int _idPelicula;
     private int _idSerie;
-    private List<Personaje> _personajes;
    
-    public Personaje(int idPersonaje, string nombre,string descripcion,string vestimenta,string imagen1, string imagen2,int idPelicula,int idSerie,List<Personaje> personajes)
+    public Personaje(int idPersonaje, string nombre,string descripcion,string vestimenta,string imagen1, string imagen2,int idPelicula,int idSerie)
         {
            _idPersonaje= idPersonaje;
            _nombre=nombre;
@@ -117,17 +116,6 @@ public class Personaje
         }
     }
 
-    public List<Personaje> Personajes
-    {
-        get
-        {
-            return _personajes;
-        }
-        set{
-            _personajes = value;
-        }
-    }
-     
   
 }
 }

@@ -17,7 +17,7 @@ public class Pelicula
         {
            _idPelicula= idPelicula;
            _nombre= nombre;
-           _descripcion=descripcion
+           _descripcion=descripcion;
            _fechaCreacion= fechaCreacion;
            _duracion= duracion;
            _cantPeliculas= cantPeliculas;
