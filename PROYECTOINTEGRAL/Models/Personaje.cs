@@ -13,9 +13,8 @@ public class Personaje
     private int _idPelicula;
     private int _idSerie;
    
-    public Personaje(int idPersonaje, string nombre,string descripcion,string vestimenta,string imagen1, string imagen2,int idPelicula,int idSerie)
+    public Personaje(string nombre,string descripcion,string vestimenta,string imagen1, string imagen2,int idPelicula, int idSerie)
         {
-           _idPersonaje= idPersonaje;
            _nombre=nombre;
            _descripcion=descripcion;
            _vestimenta=vestimenta;
@@ -23,7 +22,6 @@ public class Personaje
            _imagen2=imagen2;
            _idPelicula=idPelicula;
            _idSerie=idSerie;
-           _personajes=personajes;
            
         }
         
@@ -105,7 +103,7 @@ public class Personaje
 
     }
 
-     public string IdSerie
+     public int IdSerie
     {
         get
         {

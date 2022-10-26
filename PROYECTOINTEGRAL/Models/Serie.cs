@@ -7,21 +7,20 @@ public class Serie
     private int _idSerie;
     private string _nombre;
     private string _descripcion;
-    private datetime _fechaCreacion;
-    private int _cantCapitulos;
+    private DateTime _fechaCreacion;
+    private int _cantcapitulos;
     private string _imagen1;
     private string _imagen2;
  
-    public Serie(int idSerie,string nombre, string descripcion, datetime fechaCreacion, int cantCapitulos,string imagen1, string imagen2)
+    public Serie(int idSerie,string nombre, string descripcion, DateTime fechaCreacion, int cantcapitulos,string imagen1, string imagen2)
         {
            _idSerie= idSerie;
            _nombre= nombre;
            _descripcion=descripcion;
            _fechaCreacion= fechaCreacion;
-           _cantCapitulos= cantCapitulos;
+           _cantcapitulos= cantcapitulos;
            _imagen1= imagen1;
            _imagen2= imagen2;
-
 
         }
     
@@ -57,7 +56,7 @@ public class Serie
             _descripcion = value;
         }
     }
-     public datetime FechaCreacion
+     public DateTime FechaCreacion
     {
         get
         {

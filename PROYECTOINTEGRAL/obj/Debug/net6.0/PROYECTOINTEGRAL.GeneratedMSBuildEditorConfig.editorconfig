@@ -8,37 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PROYECTOINTEGRAL
 build_property.RootNamespace = PROYECTOINTEGRAL
-build_property.ProjectDir = C:\Users\47297659\Downloads\PROYECTOINTEGRAL\PROYECTOINTEGRAL\
+build_property.ProjectDir = C:\Users\46645633\Downloads\PROYECTOINTEGRAL\PROYECTOINTEGRAL\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\47297659\Downloads\PROYECTOINTEGRAL\PROYECTOINTEGRAL
+build_property.MSBuildProjectDirectory = C:\Users\46645633\Downloads\PROYECTOINTEGRAL\PROYECTOINTEGRAL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/47297659/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Home/Index.cshtml]
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Home/AgregarPersonaje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyUGVyc29uYWplLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47297659/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Home/TodosLosPersonajes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb2Rvc0xvc1BlcnNvbmFqZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47297659/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Shared/Error.cshtml]
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Home/UnPersonaje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVblBlcnNvbmFqZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Home/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47297659/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47297659/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/_ViewImports.cshtml]
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47297659/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/_ViewStart.cshtml]
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47297659/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Shared/_Layout.cshtml]
+[C:/Users/46645633/Downloads/PROYECTOINTEGRAL/PROYECTOINTEGRAL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-u7fwsa4i2q

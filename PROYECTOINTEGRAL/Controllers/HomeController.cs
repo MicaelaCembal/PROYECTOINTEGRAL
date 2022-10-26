@@ -15,6 +15,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        /*ViewBag.ListadoSeries = BD.ObtenerSeries();*/
+          ViewBag.ListadoPeliculas = BD.ObtenerPeliculas();
         return View();
     }
 
@@ -37,12 +39,12 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-   public IActionResult GuardarPersonaje(string nombre, string descripcion, string vestimenta, IFormFile imagen1, IFormFile imagen2, int idPelicula, int idSerie)
+   public IActionResult GuardarPersonaje(string nombre, string descripcion, string vestimenta, string imagen1, string imagen2, int idPelicula, int idSerie)
     {    
         Personaje personaje = new Personaje(nombre,descripcion,vestimenta,imagen1, imagen2,idPelicula,idSerie);
         BD.AgregarPersonaje(personaje);
         ViewBag.ListadoPersonajes = BD.ObtenerPersonajes();
-        return  ("VerPeliculas");
+        return View ("Index");
     }
     
     public IActionResult VerPersonajes(){
@@ -50,11 +52,11 @@ public class HomeController : Controller
         ViewBag.ListadoPersonajes = BD.ObtenerPersonajes();
         return View("VerPersonajes");
     }
-   
+
    public IActionResult EliminarPersonaje(int IdPersonaje)
    {
         BD.EliminarPersonaje(IdPersonaje);
-        return View ("VerPersonajes");
+        return View ("Index");
     }
 
 

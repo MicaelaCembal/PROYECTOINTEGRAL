@@ -6,7 +6,9 @@ using System.Collections.Generic;
 namespace PROYECTOINTEGRAL.Models{
     public class BD {
         
-    private static string _connectionString = @"Server=A-PHZ2-CIDI-014; DataBase=DISNEY;Trusted_Connection=True;";
+     private static string _connectionString = 
+        @"Server=A-PHZ2-CIDI-036;
+        DataBase=DISNEY;Trusted_Connection=True;";
 
 //a. ObtenerPersonajes(): Devuelve una lista con todos los personajes
     public static List<Personaje> ObtenerPersonajes(){
@@ -29,7 +31,7 @@ namespace PROYECTOINTEGRAL.Models{
     }
 
 //c. ObtenerSerie(): Devuelve una lista con todas las series
-    public static List<Serie> ObtenerSerie(){
+    public static List<Serie> ObtenerSeries(){
         List<Serie>  lista = new  List<Serie>  ();
         string sql = "SELECT * FROM  Serie";
         using(SqlConnection db = new SqlConnection(_connectionString)){
@@ -42,12 +44,12 @@ namespace PROYECTOINTEGRAL.Models{
 //d. ObtenerUnPersonaje(): Devuelve un personaje
 public static Personaje ObtenerUnPersonaje(int idPersonaje)
 {
-        Pregunta UnPersonaje= null; 
+        Personaje UnPersonaje= null; 
          
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
                 string sql = "SELECT * FROM Personaje WHERE IdPersonaje = @pIdPersonaje";
-                UnPersonaje=db.QueryFirstOrDefault<Pregunta>(sql, new {pIdPersonaje=idPersonaje}); 
+                UnPersonaje=db.QueryFirstOrDefault<Personaje>(sql, new {pIdPersonaje=idPersonaje}); 
             }
             return UnPersonaje;
 }
@@ -83,7 +85,7 @@ public static void AgregarPersonaje(Personaje Perso){
         string sql = "INSERT INTO Personaje(nombre,descripcion,vestimenta,imagen1, imagen2,idPelicula,idSerie) VALUES (@pNombre,@pDescripcion,@pVestimenta,@pImagen1,@pImagen2,@pIdPelicula,@pIdSerie) ";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new { pNombre= Perso.Nombre, pDescripcion=Perso.Descripcion, pVestimenta=Perso.Vestimenta, pImagen1=Perso.pImagen1, pImagen2=Perso.pImagen2, pIdPelicula=Perso.pIdPelicula, pIdSerie=Perso.pIdSerie });
+            db.Execute(sql, new { pNombre= Perso.Nombre, pDescripcion=Perso.Descripcion, pVestimenta=Perso.Vestimenta, pImagen1=Perso.Imagen1, pImagen2=Perso.Imagen2, pIdPelicula=Perso.IdPelicula, pIdSerie=Perso.IdSerie });
         }
     }
 

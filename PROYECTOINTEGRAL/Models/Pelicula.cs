@@ -7,22 +7,23 @@ public class Pelicula
     private int _idPelicula;
     private string _nombre;
     private string _descripcion;
-    private datetime _fechaCreacion;
+    private DateTime _fechaCreacion;
     private int _duracion;
     private int _cantPeliculas;
     private string _imagen1;
     private string _imagen2;
  
-    public Pelicula(int idPelicula,string nombre, string descripcion, datetime fechaCreacion, int duracion, int cantPeliculas,string imagen1, string imagen2)
+    public Pelicula(int IdPelicula,string Nombre, string Descripcion, DateTime FechaCreacion, int Duracion, int CantPeliculas,string Imagen1, string Imagen2)
+    
         {
-           _idPelicula= idPelicula;
-           _nombre= nombre;
-           _descripcion=descripcion;
-           _fechaCreacion= fechaCreacion;
-           _duracion= duracion;
-           _cantPeliculas= cantPeliculas;
-           _imagen1= imagen1;
-           _imagen2= imagen2;
+           _idPelicula= IdPelicula;
+           _nombre= Nombre;
+           _descripcion=Descripcion;
+           _fechaCreacion= FechaCreacion;
+           _duracion= Duracion;
+           _cantPeliculas= CantPeliculas;
+           _imagen1= Imagen1;
+           _imagen2= Imagen2;
 
 
         }
@@ -59,7 +60,7 @@ public class Pelicula
             _descripcion = value;
         }
     }
-     public datetime FechaCreacion
+     public DateTime FechaCreacion
     {
         get
         {

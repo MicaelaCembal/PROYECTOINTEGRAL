@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 html {
   font-size: 14px;
 }
@@ -12,7 +17,113 @@ html {
   position: relative;
   min-height: 100%;
 }
+.footer {
+  width: 100%;
+  white-space: nowrap;
+  position: absolute;
+  bottom: -13px;
+  line-height: 30px;
+}
 
 body {
-  margin-bottom: 60px;
+  height:100vh;
+  background: radial-gradient(#1C1F2C 30%, #0D0E14);
+  font-family: 'Nunito', sans-serif;
+}
+
+header{
+  width:100%;
+}
+
+header img{
+  height:49px;
+  width: 79.05px;
+  margin: 0px 20 px 10px 0;
+  padding:0px 36px;
+}
+
+header nav{
+  height:72px;
+}
+
+header ul{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style:none;
+}
+
+header a{
+  text-decoration: none;
+  color:white;
+  padding: 16px 18px;
+}
+
+header p{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight:bold;
+  display: inline-block;
+  padding: 30px 0px;
+  margin: 0 10px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+header p::after{
+content:"";
+display:block;
+position:absolute;
+width: 100%;
+height:2px;
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+}
+
+header p:hover::after{
+  animation-name: showunderline;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+
+}
+
+@keyframes showunderline{
+
+0%{
+  background:#fff;
+  transform: translateX(-100%);
+  opacity:0%;
+}
+50%{
+  background:#fff;
+  opacity:50%;
+}
+100%{
+  background:#fff;
+  transform: translateX(0%);
+  opacity:100%;
+}
+}
+
+
+.img-circle-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-circle {
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 12px;
+  width: 200px;
+}
+
+.letraTitulo{
+  font-family: 'Nunito', sans-serif;
+  color:white; 
 }
