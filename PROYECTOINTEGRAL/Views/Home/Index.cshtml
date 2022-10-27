@@ -5,43 +5,53 @@
 
 <!--Index.cshtml
 Debe mostrar los escudos y nombre de cada Pais. (Mostrar usando cards) Cada equipo debe contener un link a VerDetalleEquipo enviando el Id del Equipo seleccionado.-->
-
+<head> <title> DISNEY </title> </head>
 <center><h1 class="letraTitulo pb-5">¡DESCUBRÍ EL MUNDO MÁGICO DE DISNEY!</h1></center>
 <h3 class="letraTitulo pb-2">Películas</h3>
-        <div class="container pb-3">
+        <div class="container pb-4">
             <div class="row">
         @foreach(Pelicula pelicula in @ViewBag.ListadoPeliculas)
         {
         
                     <div class="col-md-3 col-6 img-circle-container">
-                   <img src= @pelicula.Imagen1 class="img-circle">
+                        <a href="#info" onclick="TraeInfoPeli(@pelicula.IdPelicula)"> <img src= @pelicula.Imagen1 class="img-circle"> 
+                        </a>
+
+                   
                     </div>
         }
 
 
             </div>
 
-            <a href='@Url.Action("AgregarEquipo", "Home")'class="btn btn-primary_ botonderecho">Agregar equipo</a>
-
-
     </div>
 
 
+    
+    <h3 class="letraTitulo pb-2">Series</h3>
+        <div class="container pb-3">
+            <div class="row">
+        @foreach(Serie serie in @ViewBag.ListadoSeries)
+        {
+        
+                    <div class="col-md-3 col-6 img-circle-container">
+                        <a href="#info" onclick="TraeInfoSerie(@serie.IdSerie)"> <img src= @serie.Imagen1 class="img-circle"> 
+                        </a>
 
+                   
+                    </div>
+        }
+
+
+            </div>
+
+    </div>
 
   </div>
-    
-
-
-
-
-
-
-
-
-<!--div onlick="TraeInfoPeli(1)">Test 1</div>
-
 
 <div id="info" class="oculto">
-    <div id = "nombrepelicula"></div>
-</div-->
+    <div id = "nombre"></div>
+</div>
+<div id="info2" class="oculto">
+    <div id = "nombre"></div>
+    </div>

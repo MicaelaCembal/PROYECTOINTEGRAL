@@ -7,7 +7,7 @@ namespace PROYECTOINTEGRAL.Models{
     public class BD {
         
      private static string _connectionString = 
-        @"Server=A-PHZ2-CIDI-036;
+        @"Server=A-PHZ2-CIDI-021;
         DataBase=DISNEY;Trusted_Connection=True;";
 
 //a. ObtenerPersonajes(): Devuelve una lista con todos los personajes
@@ -61,7 +61,7 @@ public static Pelicula ObtenerUnaPelicula(int idPelicula)
          
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT * FROM Pelicula WHERE IdPelicula = @IdPelicula";
+                string sql = "SELECT * FROM Pelicula WHERE IdPelicula = @pIdPelicula";
                 UnaPelicula=db.QueryFirstOrDefault<Pelicula>(sql, new {pIdPelicula=idPelicula}); 
             }
             return UnaPelicula;
@@ -74,7 +74,7 @@ public static Serie ObtenerUnaSerie(int idSerie)
          
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT * FROM Serie WHERE IdSerie = @IdSerie";
+                string sql = "SELECT * FROM Serie WHERE IdSerie = @pIdSerie";
                 UnaSerie=db.QueryFirstOrDefault<Serie>(sql, new {pIdSerie=idSerie}); 
             }
             return UnaSerie;

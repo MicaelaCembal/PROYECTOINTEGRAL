@@ -15,7 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        /*ViewBag.ListadoSeries = BD.ObtenerSeries();*/
+        ViewBag.ListadoSeries = BD.ObtenerSeries();
           ViewBag.ListadoPeliculas = BD.ObtenerPeliculas();
         return View();
     }
