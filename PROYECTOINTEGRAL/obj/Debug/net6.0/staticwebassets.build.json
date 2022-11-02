@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ybx5+MbJT97DusqSQNvNr2HSAq4eiHE1VfrqPwXIkSI=",
+  "Hash": "mWXo5rN7Dvg7QCmvHtmvx9TS94SghWaTkexOSQNiNTg=",
   "Source": "PROYECTOINTEGRAL",
   "BasePath": "_content/PROYECTOINTEGRAL",
   "Mode": "Default",
@@ -1239,6 +1239,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\TOYSTORY1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\TOYSTORY2.jpeg",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "TOYSTORY2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TOYSTORY2.jpeg"
     }
   ]
 }
