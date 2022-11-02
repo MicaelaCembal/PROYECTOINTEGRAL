@@ -21,8 +21,7 @@ html {
 .footer {
   width: 100%;
   white-space: nowrap;
-  position: absolute;
-  bottom: -13px;
+  position: relative;
   line-height: 30px;
 }
 
@@ -123,17 +122,22 @@ header p:hover::after{
   margin-top: 12px;
   width: 200px;
 }
+.img-cuadrada {
+  height: 200px;
+  margin-top: 12px;
+  width: 200px;
+}
 
 .letraTitulo{
   font-family: 'Nunito', sans-serif;
   color:white; 
 }
 
-#info {
+#infopelicula {
   background-color: white;
 }
 
-#info2 {
+#infoserie {
   background-color: white;
 }
 

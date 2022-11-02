@@ -13,9 +13,15 @@ function TraeInfoPeli(id)
 function MuestraPelicula(pelicula)
     {
         console.log(pelicula);
-        $('#info').show();
-        $('#nombre').html( pelicula.nombre);    
-        $('#nombre').html( pelicula.nombre);      
+        $('#infopelicula').show();
+        $('#infoserie').hide();
+        $('#nombrep').html( pelicula.nombre);    
+        $('#descripcionp').html( pelicula.descripcion); 
+        $('#fechaCreacionp').html( pelicula.fechaCreacion); 
+        $('#duracionp').html( pelicula.duracion); 
+        $('#cantPeliculasp').html( pelicula.cantPeliculas);    
+        $('#imagen1p').attr('src','/' +pelicula.imagen1);    
+        $('#imagen2p').attr('src','/' +pelicula.imagen2);    
         
     }
 
@@ -33,7 +39,14 @@ function MuestraPelicula(pelicula)
 function MuestraSerie(serie)
     {
         console.log(serie);
-        $('#info').show();
-        $('#nombre').html( serie.nombre);       
+        $('#infopelicula').hide();
+        $('#infoserie').show();
+        $('#nombres').html( serie.nombre);       
+        $('#descripcions').html( serie.descripcion);  
+        $('#cantCapituloss').html( serie.cantCapitulos);   
+        $('#fechaCreacions').html( serie.fechaCreacion);    
+        $('#imagen1s').attr('src','/' +serie.imagen1);    
+        $('#imagen2s').attr('src','/' +serie.imagen2);    
         
+    
     }
