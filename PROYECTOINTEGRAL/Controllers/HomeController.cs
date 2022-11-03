@@ -17,6 +17,8 @@ public class HomeController : Controller
     {
         ViewBag.ListadoSeries = BD.ObtenerSeries();
           ViewBag.ListadoPeliculas = BD.ObtenerPeliculas();
+          ViewBag.ListaPersonajes=BD.ObtenerPersonajes(IdPelicula); 
+          ViewBag.UnaSerie= BD.ObtenerUnaSerie(IdSerie);
         return View();
     }
 
@@ -31,12 +33,17 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-       public IActionResult AgregarPersonaje(int IdPersonaje){
-       
+       public IActionResult AgregarPersonaje(int IdSerie){
         ViewBag.IdPersonaje = IdPersonaje;
-        
         return View("AgregarPersonaje");
     }
+
+     public IActionResult UnPersonaje(int IdPersonaje){
+       
+        ViewBag.UnPersonaje = BD.ObtenerUnPersonaje(IdPersonaje);
+        return View("UnPersonaje");
+    }
+
 
     [HttpPost]
    public IActionResult GuardarPersonaje(string nombre, string descripcion, string vestimenta, string imagen1, string imagen2, int idPelicula, int idSerie)

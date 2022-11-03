@@ -37,17 +37,63 @@ function MuestraPelicula(pelicula)
         });
 }
 
+
+
 function MuestraSerie(serie)
     {
         console.log(serie);
         $('#infopelicula').hide();
         $('#infoserie').show();
-        $('#nombres').html( serie.nombre);       
-        $('#descripcions').html( serie.descripcion);  
-        $('#cantCapituloss').html( serie.cantCapitulos);   
-        $('#fechaCreacions').html( serie.fechaCreacion);    
+        $('#MostrarDescripcion').show();
+        $('#MostrarCantCapitulos').show();
+        $('#MostrarFechaCreacion').show();
+        $('#nombres').html( serie.nombre);  
+        $('#descripcions').html(serie.descripcion);  
+        $('#cantCapituloss').html(serie.cantCapitulos);   
+        $('#fechaCreacions').html(serie.fechaCreacion);              
         $('#imagen1s').attr('src','/' +serie.imagen1);    
         $('#imagen2s').attr('src','/' +serie.imagen2);    
         
     
     }
+
+var mostroDescs = 0;
+var mostroCapituloss = 0;
+var mostroFechaCreacions = 0;
+
+function MostrarInfoDescs(){
+
+    
+    if(mostroDescs == 0){
+        mostroDescs = 1;
+        $('#descripcions').show();  
+       
+    }else{
+        mostroDescs = 0;
+        $('#descripcions').hide();  
+    }
+}
+function MostrarInfoCantCapis(){
+    if(mostroCapituloss == 0){
+        mostroCapituloss = 1;
+        $('#cantCapituloss').show();  
+      
+    }
+    else{
+        mostroCapituloss = 0;
+        $('#cantCapituloss').hide();   
+}
+}
+function MostrarInfoFechaCreacions(){
+    if(mostroFechaCreacions == 0){
+        mostroFechaCreacions = 1;
+        $('#fechaCreacions').show(); 
+        
+        
+    }
+    else{
+        mostroFechaCreacions = 0; 
+        $('#fechaCreacions').hide(); 
+}
+}
+

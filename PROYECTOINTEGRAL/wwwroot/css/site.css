@@ -27,7 +27,7 @@ html {
 
 body {
   height:100vh;
-  background: radial-gradient(#1C1F2C 30%, #0D0E14);
+  background: radial-gradient(#1c1f2c 30%, #0D0E14);
   font-family: 'Nunito', sans-serif;
 }
 
@@ -132,14 +132,30 @@ header p:hover::after{
   font-family: 'Nunito', sans-serif;
   color:white; 
 }
-
+.letrapeliserie{
+  font-family: 'Nunito', sans-serif;
+  color:#ffffff; 
+}
 #infopelicula {
   background-color: white;
 }
 
 #infoserie {
-  background-color: white;
+  /*background-color: white;*/
+  font-family: 'Nunito', sans-serif;
+  color:#ffffff; 
 }
+.btn1 {
+  color: #1c1f2c;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(194, 194, 194);
+  width: 80%; 
+  font-family: 'Nunito', sans-serif;
+}
+.separador{
+  width: 70%; 
+  height: 0.1%; 
 
-
+  background: #ffffff;
+}
 

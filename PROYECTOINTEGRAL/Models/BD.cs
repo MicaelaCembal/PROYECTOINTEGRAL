@@ -7,7 +7,7 @@ namespace PROYECTOINTEGRAL.Models{
     public class BD {
         
      private static string _connectionString = 
-        @"Server=A-PHZ2-CIDI-036;
+        @"Server=A-PHZ2-CIDI-015;
         DataBase=DISNEY;Trusted_Connection=True;";
 
 //a. ObtenerPersonajes(): Devuelve una lista con todos los personajes
@@ -19,6 +19,7 @@ namespace PROYECTOINTEGRAL.Models{
             }
         return lista;
     }
+
 
 //b. ObtenerPeliculas(): Devuelve una lista con todas las peliculas
     public static List<Pelicula> ObtenerPeliculas(){
