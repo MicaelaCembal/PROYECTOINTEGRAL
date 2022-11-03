@@ -28,6 +28,9 @@ function MuestraPelicula(pelicula)
 
     function TraeInfoSerie(id)
 {
+
+    MostrarPersonajes(id)
+
     $.ajax({
         url: '/series/TraeInfoSerie',
         type: 'get',
