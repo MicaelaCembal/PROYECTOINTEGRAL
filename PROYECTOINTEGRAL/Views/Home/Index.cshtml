@@ -34,7 +34,7 @@ Debe mostrar los escudos y nombre de cada Pais. (Mostrar usando cards) Cada equi
         {
         
                     <div class="col-md-3 col-6 img-circle-container">
-                        <a href="#info2" onclick="TraeInfoSerie(@serie.IdSerie)"> <img src= @serie.Imagen1 class="img-circle"> 
+                        <a href="#infoserie" onclick="TraeInfoSerie(@serie.IdSerie)"> <img src= @serie.Imagen1 class="img-circle"> 
                         </a>
 
                    
@@ -42,7 +42,7 @@ Debe mostrar los escudos y nombre de cada Pais. (Mostrar usando cards) Cada equi
         }
 
 
-            </div>
+           
 
     </div>
 
@@ -92,6 +92,7 @@ Debe mostrar los escudos y nombre de cada Pais. (Mostrar usando cards) Cada equi
        
       
 </div>
+
 
 <div id="infoserie" class="oculto" style="display: none">
 
@@ -143,8 +144,15 @@ Debe mostrar los escudos y nombre de cada Pais. (Mostrar usando cards) Cada equi
                  
                 </div>
 
+                <div class="container m-auto" id="">
+                    <div class="row" id="personajes">
+                
+                </div>  </div>
 
-
+                    
+             
+                
+                
     
         </div>
         </div>
@@ -154,28 +162,10 @@ Debe mostrar los escudos y nombre de cada Pais. (Mostrar usando cards) Cada equi
 </div>
 
 
-  @foreach(Personaje perso in @ViewBag.ListaPersonajes)
-  {
-    if(@perso.IdSerie==ViewBag.UnaSerie.IdSerie)
-    {
-
-        <div class="card" style="width: 18rem;">
-  <img src="@perso.Imagen1" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">@perso.Nombre</h5>
-     <a href='@Url.Action("UnPersonaje", "Home", new{IdSerie=perso.IdSerie, IdPersonaje=perso.IdPersonaje})'class="btn btn-primary_ botones ">Ver</a>
-          <a href='@Url.Action("EliminarPersonaje", "Home", new{IdPersonaje=perso.IdPersonaje, IdSerie=perso.IdSerie})'class="btn btn-danger">Eliminar</a>
-  </div>
 </div>
 
-  }
-  }
- 
-</div>
-
- <a href='@Url.Action("AgregarPersonaje", "Home", new{IdSerie=@ViewBag.UnaSerie.IdSerie})'class="btn btn-primary_ botonderecho">Agregar Personaje</a>
-</div>
-
+<!--ACA VA PERSIBAJES DE LA SERIE-->
+  
      
 
 

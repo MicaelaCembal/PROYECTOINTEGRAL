@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Disney";
+    <div class="pb-2"></div>
+}
+<center><h1 class="letraTitulo pb-5">AGREGAR PERSONAJE</h1></center>
+  </div>
+<form action='@Url.Action("GuardarPersonaje","Home")' method="POST" enctype="multipart/form-data">
+  <div class="form-group pb-4">
+  
+  
+ 
+  
+
+
+    <div class="form-group pb-3">
+    <input type="text" class="form-control" id="Nombre" placeholder="Nombre" autocomplete= "off" name="Nombre" required>
+
+   </div>
+
+    <div class="form-group pb-3">
+    <input type="text" class="form-control" id="Descripcion" placeholder="Descripcion" autocomplete= "off" name="Descripcion" required>
+
+   </div>
+
+    <div class="form-group pb-3">
+    <input type="text" class="form-control" id="Vestimenta" placeholder="Vestimenta" autocomplete= "off" name="Vestimenta" required>
+
+   </div>
+
+<div class="letraTitulo pb-2">
+ <h5>Adjunte retrato del personaje</h5>
+  </div>
+<input type="file" class="letraTitulo pb-2" name="Imagen1">
+<input type="file"class="letraTitulo pb-2"  name="Imagen2">
+
+<button type="submit" class="letraTitulo btn btn-primary_ ">Guardar Personaje Nuevo</button>
+</form>

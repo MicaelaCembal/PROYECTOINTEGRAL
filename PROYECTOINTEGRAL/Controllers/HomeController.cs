@@ -7,18 +7,18 @@ namespace PROYECTOINTEGRAL.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private IWebHostEnvironment Environment;
+    
+    public HomeController(IWebHostEnvironment environment,ILogger<HomeController> logger)
     {
-        _logger = logger;
+        Environment=environment;
+         _logger = logger;
     }
-
     public IActionResult Index()
     {
         ViewBag.ListadoSeries = BD.ObtenerSeries();
           ViewBag.ListadoPeliculas = BD.ObtenerPeliculas();
-          ViewBag.ListaPersonajes=BD.ObtenerPersonajes(IdPelicula); 
-          ViewBag.UnaSerie= BD.ObtenerUnaSerie(IdSerie);
+        
         return View();
     }
 
@@ -33,8 +33,8 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-       public IActionResult AgregarPersonaje(int IdSerie){
-        ViewBag.IdPersonaje = IdPersonaje;
+       public IActionResult AgregarPersonaje(){
+        
         return View("AgregarPersonaje");
     }
 
@@ -46,18 +46,37 @@ public class HomeController : Controller
 
 
     [HttpPost]
-   public IActionResult GuardarPersonaje(string nombre, string descripcion, string vestimenta, string imagen1, string imagen2, int idPelicula, int idSerie)
+   public IActionResult GuardarPersonaje(int idpersonaje,string nombre, string descripcion, string vestimenta, IFormFile imagen1, IFormFile imagen2, int idPelicula, int idSerie)
     {    
-        Personaje personaje = new Personaje(nombre,descripcion,vestimenta,imagen1, imagen2,idPelicula,idSerie);
+
+        if(imagen1.Length>0) 
+            {
+                string wwwRootLocal=this.Environment.ContentRootPath + @"\wwwroot\" + imagen1.FileName;
+                using(var stream = System.IO.File.Create(wwwRootLocal))
+                {
+                    imagen1.CopyToAsync(stream);
+                }
+            }
+
+             if(imagen2.Length>0) 
+            {
+                string wwwRootLocal=this.Environment.ContentRootPath + @"\wwwroot\" + imagen2.FileName;
+                using(var stream = System.IO.File.Create(wwwRootLocal))
+                {
+                    imagen2.CopyToAsync(stream);
+                }
+            }
+        Personaje personaje = new Personaje(idpersonaje,nombre,descripcion,vestimenta,imagen1.FileName, imagen2.FileName,idPelicula,idSerie);
         BD.AgregarPersonaje(personaje);
-        ViewBag.ListadoPersonajes = BD.ObtenerPersonajes();
+        
         return View ("Index");
     }
+
     
-    public IActionResult VerPersonajes(){
+    public IActionResult TodosLosPersonajes(){
        
-        ViewBag.ListadoPersonajes = BD.ObtenerPersonajes();
-        return View("VerPersonajes");
+        ViewBag.ListadoPersonajes = BD.ObtenerPersonajesTodos();
+        return View("TodosLosPersonajes");
     }
 
    public IActionResult EliminarPersonaje(int IdPersonaje)

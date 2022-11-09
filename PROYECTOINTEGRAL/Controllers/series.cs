@@ -15,9 +15,17 @@ public class series : Controller
 
     public Serie TraeInfoSerie(int idSerie)
     {
+
         Serie seerie= BD.ObtenerUnaSerie(idSerie);
          return seerie;
     }
 
-
+    public  List<Personaje>  TraePersonajesSerie(int idSerie)
+    {
+         List<Personaje>  listaPerso = new List<Personaje> ();
+         listaPerso= BD.ObtenerPersonajesSerie(idSerie);
+         return  listaPerso;
+   
+    
+    }
 }

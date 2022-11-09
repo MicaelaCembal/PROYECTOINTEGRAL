@@ -159,3 +159,8 @@ header p:hover::after{
   background: #ffffff;
 }
 
+
+.descrperso{
+  width: 1000px;
+  height: 300px;
+}

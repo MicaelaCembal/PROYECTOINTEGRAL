@@ -17,15 +17,20 @@ En el menú deben estar el link a la Home y el logo del Mundial Qatar2022 -->
         <nav>
     
                     <ul>
-                        <img src="LOGODISNEY.webp" alt="">
+                        <img src="/LOGODISNEY.webp" alt="">
                     <li>
-                         <a href="">
+                         <a asp-controller="Home" asp-action="Index">
                             <p> Inicio</p>
                          </a>   
                     </li>
                       <li>
-                         <a href="">
+                         <a asp-controller="Home" asp-action="TodosLosPersonajes">
                             <p> Personajes</p>
+                         </a>   
+                    </li>
+                    <li>
+                         <a asp-controller="Home" asp-action="AgregarPersonaje">
+                            <p> Agregar Personaje</p>
                          </a>   
                     </li>
 
