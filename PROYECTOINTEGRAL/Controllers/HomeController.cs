@@ -48,7 +48,7 @@ public class HomeController : Controller
     [HttpPost]
    public IActionResult GuardarPersonaje(int idpersonaje,string nombre, string descripcion, string vestimenta, IFormFile imagen1, IFormFile imagen2, int idPelicula, int idSerie)
     {    
-
+        
         if(imagen1.Length>0) 
             {
                 string wwwRootLocal=this.Environment.ContentRootPath + @"\wwwroot\" + imagen1.FileName;
@@ -69,7 +69,7 @@ public class HomeController : Controller
         Personaje personaje = new Personaje(idpersonaje,nombre,descripcion,vestimenta,imagen1.FileName, imagen2.FileName,idPelicula,idSerie);
         BD.AgregarPersonaje(personaje);
         
-        return View ("Index");
+        return View ("TodosLosPersonajes");
     }
 
     

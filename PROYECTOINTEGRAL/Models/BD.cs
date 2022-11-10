@@ -7,7 +7,7 @@ namespace PROYECTOINTEGRAL.Models{
     public class BD {
         
      private static string _connectionString = 
-        @"Server=A-PHZ2-CIDI-036;
+        @"Server=A-PHZ2-CIDI-031;
         DataBase=DISNEY;Trusted_Connection=True;";
 
 //a. ObtenerPersonajes(): Devuelve una lista con todos los personajes
@@ -35,7 +35,10 @@ public static List<Personaje> ObtenerPersonajesSerie(int idSerie){
         string sql = "SELECT * FROM  Pelicula";
         using(SqlConnection db = new SqlConnection(_connectionString)){
                 lista = db.Query<Pelicula>(sql).ToList();
+
             }
+
+           lista.RemoveAt(4); 
         return lista;
     }
 
@@ -91,10 +94,10 @@ public static Serie ObtenerUnaSerie(int idSerie)
 
 //g. AgregarPersonaje(): Agrega un personaje a la base de datos
 public static void AgregarPersonaje(Personaje Perso){
-        string sql = "INSERT INTO Personaje(nombre,descripcion,vestimenta,imagen1, imagen2,idPelicula,idSerie) VALUES (@pNombre,@pDescripcion,@pVestimenta,@pImagen1,@pImagen2,@pIdPelicula,@pIdSerie) ";
+        string sql = "INSERT INTO Personaje(nombre,descripcion,vestimenta,idpelicula, idserie, imagen1, imagen2) VALUES (@pNombre,@pDescripcion,@pVestimenta,@pIdpelicula, @pIdserie,@pImagen1,@pImagen2) ";
         using(SqlConnection db = new SqlConnection(_connectionString))
         {
-            db.Execute(sql, new { pNombre= Perso.Nombre, pDescripcion=Perso.Descripcion, pVestimenta=Perso.Vestimenta, pImagen1=Perso.Imagen1, pImagen2=Perso.Imagen2, pIdPelicula=Perso.IdPelicula, pIdSerie=Perso.IdSerie });
+            db.Execute(sql, new { pNombre= Perso.Nombre, pDescripcion=Perso.Descripcion, pVestimenta=Perso.Vestimenta, pIdpelicula=6, pIdserie=Perso.IdSerie,  pImagen1=Perso.Imagen1, pImagen2=Perso.Imagen2});
         }
     }
 
