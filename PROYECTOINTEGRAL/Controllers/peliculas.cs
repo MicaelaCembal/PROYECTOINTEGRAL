@@ -19,5 +19,13 @@ public class peliculas : Controller
          return Peli;
     }
 
+     public  List<Personaje>  TraePersonajesPeli(int idPelicula)
+    {
+         List<Personaje>  listaPerso1 = new List<Personaje> ();
+         listaPerso1= BD.ObtenerPersonajesPelicula(idPelicula);
+         return  listaPerso1;
+   
+    
+    }
 
 }
