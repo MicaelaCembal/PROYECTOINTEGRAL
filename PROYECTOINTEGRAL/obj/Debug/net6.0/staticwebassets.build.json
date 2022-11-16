@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "NouI6GRbrtR47WVwjAHSTpJ+ZifW8iMroyteVi5dlvc=",
-=======
-  "Hash": "hEO88BjspnS025Wuf9zDYZ5LRj3jmKHkzidPTieoVjw=",
->>>>>>> 0e45a8d6d0026df827d7ada577d254ffac739ab3
+  "Hash": "pHoNtKAZgVoJ4wJV9Z0vkA/4l6XDfpnkpbtmWzXjDC0=",
   "Source": "PROYECTOINTEGRAL",
   "BasePath": "_content/PROYECTOINTEGRAL",
   "Mode": "Default",
@@ -55,17 +51,10 @@
       "OriginalItemSpec": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROYECTOINTEGRAL.bundle.scp.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\ALADDINPELI1.jpg",
-      "SourceId": "PROYECTOINTEGRAL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
-=======
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\ALADDINPELI1.jpg",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
->>>>>>> 0e45a8d6d0026df827d7ada577d254ffac739ab3
       "BasePath": "_content/PROYECTOINTEGRAL",
       "RelativePath": "ALADDINPELI1.jpg",
       "AssetKind": "All",
@@ -79,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\ALADDINPELI1.jpg"
     },
     {
-      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\BOFE.jpg",
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\BERTRAM2.webp",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
       "BasePath": "_content/PROYECTOINTEGRAL",
-      "RelativePath": "BOFE.jpg",
+      "RelativePath": "BERTRAM2.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -93,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BOFE.jpg"
+      "OriginalItemSpec": "wwwroot\\BERTRAM2.webp"
     },
     {
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\BUSCANDO1.jpg",
@@ -130,11 +119,44 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\DOOFEN2.png",
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\DIGGIE2.webp",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "DIGGIE2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DIGGIE2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\DONALD2.jpg",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "DONALD2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DONALD2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\DOOFEN2.png",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
       "BasePath": "_content/PROYECTOINTEGRAL",
       "RelativePath": "DOOFEN2.png",
       "AssetKind": "All",
@@ -148,10 +170,7 @@
       "OriginalItemSpec": "wwwroot\\DOOFEN2.png"
     },
     {
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\favicon.ico",
-=======
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\favicon.ico",
->>>>>>> 0e45a8d6d0026df827d7ada577d254ffac739ab3
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
@@ -168,33 +187,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\FERB2.png",
-      "SourceId": "PROYECTOINTEGRAL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
-      "BasePath": "_content/PROYECTOINTEGRAL",
-      "RelativePath": "FERB2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\FERB2.png"
-    },
-    {
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\gof.jpg",
-=======
-      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\FERB2.png",
->>>>>>> 0e45a8d6d0026df827d7ada577d254ffac739ab3
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\FERB1.jpg",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
       "BasePath": "_content/PROYECTOINTEGRAL",
-      "RelativePath": "FERB2.png",
+      "RelativePath": "FERB1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -203,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\FERB2.png"
+      "OriginalItemSpec": "wwwroot\\FERB1.jpg"
     },
     {
-      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\gof.jpg",
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\FERB2.webp",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
       "BasePath": "_content/PROYECTOINTEGRAL",
-      "RelativePath": "gof.jpg",
+      "RelativePath": "FERB2.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -220,7 +218,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\gof.jpg"
+      "OriginalItemSpec": "wwwroot\\FERB2.webp"
     },
     {
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\INTENSAMENTE.gif",
@@ -255,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\INTENSAMENTE.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\JESSIEPRESCCOTT2.webp",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "JESSIEPRESCCOTT2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JESSIEPRESCCOTT2.webp"
     },
     {
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\JESSIESERIE1.jpg",
@@ -1260,6 +1275,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\LIVROONEY2.webp",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "LIVROONEY2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\LIVROONEY2.webp"
+    },
+    {
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\LIVYMADDIESERIE1.jpg",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
@@ -1294,13 +1326,12 @@
       "OriginalItemSpec": "wwwroot\\LOGODISNEY.webp"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\MICKEY.jpg",
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\LUKE2.webp",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
       "BasePath": "_content/PROYECTOINTEGRAL",
-      "RelativePath": "MICKEY.jpg",
+      "RelativePath": "LUKE2.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1309,13 +1340,44 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\MICKEY.jpg"
+      "OriginalItemSpec": "wwwroot\\LUKE2.webp"
     },
     {
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\MICKEYMOUSESERIE1.jpg",
-=======
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\MADDIEROONEY2.png",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "MADDIEROONEY2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MADDIEROONEY2.png"
+    },
+    {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\MICKEY2.jpg",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "MICKEY2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MICKEY2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\MICKEYMOUSESERIE1.jpg",
->>>>>>> 0e45a8d6d0026df827d7ada577d254ffac739ab3
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
@@ -1332,11 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\MICKEYMOUSESERIE1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\MINNIE2.png",
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\MINNIE2.png",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
       "BasePath": "_content/PROYECTOINTEGRAL",
       "RelativePath": "MINNIE2.png",
       "AssetKind": "All",
@@ -1350,10 +1411,27 @@
       "OriginalItemSpec": "wwwroot\\MINNIE2.png"
     },
     {
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PERRY2.jpg",
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PARKER2.webp",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "PARKER2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PARKER2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PERRY2.jpg",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
       "BasePath": "_content/PROYECTOINTEGRAL",
       "RelativePath": "PERRY2.jpg",
       "AssetKind": "All",
@@ -1367,15 +1445,12 @@
       "OriginalItemSpec": "wwwroot\\PERRY2.jpg"
     },
     {
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PHINEAS2.jpeg",
-=======
-      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PHINEAS2.jpeg",
->>>>>>> 0e45a8d6d0026df827d7ada577d254ffac739ab3
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PHINEAS1.jpg",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
       "BasePath": "_content/PROYECTOINTEGRAL",
-      "RelativePath": "PHINEAS2.jpeg",
+      "RelativePath": "PHINEAS1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1384,31 +1459,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\PHINEAS2.jpeg"
+      "OriginalItemSpec": "wwwroot\\PHINEAS1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PHINEAS2.jpg",
-      "SourceId": "PROYECTOINTEGRAL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
-      "BasePath": "_content/PROYECTOINTEGRAL",
-      "RelativePath": "PHINEAS2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\PHINEAS2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\46645633\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PHINEASYFERBSERIE1.jpg",
-=======
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PHINEAS2.jpg",
->>>>>>> 0e45a8d6d0026df827d7ada577d254ffac739ab3
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
@@ -1440,6 +1494,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PHINEASYFERBSERIE1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PLUTO2.jfif",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "PLUTO2.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PLUTO2.jfif"
     },
     {
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\TOYSTORY1.jpg",
@@ -1474,6 +1545,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\TOYSTORY2.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\ZURI2.webp",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "ZURI2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ZURI2.webp"
     }
   ]
 }

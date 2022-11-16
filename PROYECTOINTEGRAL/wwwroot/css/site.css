@@ -136,9 +136,7 @@ header p:hover::after{
   font-family: 'Nunito', sans-serif;
   color:#ffffff; 
 }
-#infopelicula {
-  background-color: white;
-}
+
 
 #infoserie {
   /*background-color: white;*/
@@ -178,3 +176,11 @@ header p:hover::after{
 .imagenPerso{
 max-height:270px;
 }
+
+
+.carousel img {
+
+  margin: auto;
+
+}
+

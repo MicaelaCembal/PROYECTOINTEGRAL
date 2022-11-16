@@ -22,9 +22,9 @@ function TraeInfoPeli(id)
 function MuestraPelicula(pelicula)
     {
         agregarPersonajesNuevos="";
-        console.log(serie);
-        $('#infopelicula').hide();
-        $('#infoserie').show();
+        console.log(pelicula);
+        $('#infopelicula').show();
+        $('#infoserie').hide();
 
         $('#MostrarDescripcionPeli').show();
         $('#MostrarCantPeliculas').show();
@@ -104,11 +104,11 @@ function MuestraPelicula(pelicula)
 }
 
 
-function MuestraPersonajesSerie(personajes)
+function MuestraPersonajesSerie(personajesSerie)
 {
     textopersonajes= "";
     
-    personajes.forEach(perso => {
+    personajesSerie.forEach(perso => {
         console.log(perso);
 
         textopersonajes= textopersonajes + "<div class='col-md-3 col-6 img-circle-container'>"
@@ -123,18 +123,18 @@ function MuestraPersonajesSerie(personajes)
     });
     //aca recorrer el foreach y armar el html y guardarlo en textopersonajes
     
-    $('#personajes').html(textopersonajes); 
+    $('#personajesSerie').html(textopersonajes); 
     
 
 
                     
 }
 
-function MuestraPersonajesPelicula(personajes)
+function MuestraPersonajesPelicula(personajesPelicula)
 {
     textopersonajes= "";
     
-    personajes.forEach(perso => {
+    personajesPelicula.forEach(perso => {
         console.log(perso);
 
         textopersonajes= textopersonajes + "<div class='col-md-3 col-6 img-circle-container'>"
@@ -149,7 +149,7 @@ function MuestraPersonajesPelicula(personajes)
     });
     //aca recorrer el foreach y armar el html y guardarlo en textopersonajes
     
-    $('#personajes').html(textopersonajes); 
+    $('#personajesPelicula').html(textopersonajes); 
     
 
 
