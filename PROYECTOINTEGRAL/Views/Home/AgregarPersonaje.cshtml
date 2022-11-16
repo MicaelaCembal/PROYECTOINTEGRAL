@@ -3,7 +3,9 @@
     <div class="pb-2"></div>
 }
 <center><h1 class="letraTitulo pb-5">AGREGAR PERSONAJE</h1></center>
-  </div>
+ <div class="pb-4 mx-5">
+
+
 <form action='@Url.Action("GuardarPersonaje","Home")' method="POST" enctype="multipart/form-data">
   <div class="form-group pb-4">
   
@@ -26,10 +28,11 @@
    </div>
 
 <div class="letraTitulo pb-2">
- <h5>Adjunte retrato del personaje</h5>
+ <h6>Adjunte dos retratos del personaje</h6>
   </div>
 <input type="file" class="letraTitulo pb-2" name="Imagen1">
 <input type="file"class="letraTitulo pb-2"  name="Imagen2">
 
-<button type="submit" class="letraTitulo btn btn-primary_ ">Guardar Personaje Nuevo</button>
+<button type="submit" class="letraTitulo btn btn-primary_ botonagregarperso">Guardar Personaje Nuevo</button>
 </form>
+   </div>
