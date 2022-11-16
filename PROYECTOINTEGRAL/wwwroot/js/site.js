@@ -9,13 +9,26 @@ function TraeInfoPeli(id)
         data: "idPelicula="+id,
         success:  MuestraPelicula
         });
+
+        $.ajax({
+            url: '/peliculas/TraePersonajesPeli',
+            type: 'get',
+            dataType: 'json',
+            data: "idPelicula="+id,
+            success:  MuestraPersonajesPelicula
+            });
 }
 
 function MuestraPelicula(pelicula)
     {
-        console.log(pelicula);
-        $('#infopelicula').show();
-        $('#infoserie').hide();
+        agregarPersonajesNuevos="";
+        console.log(serie);
+        $('#infopelicula').hide();
+        $('#infoserie').show();
+
+        $('#MostrarDescripcionPeli').show();
+        $('#MostrarCantPeliculas').show();
+        $('#MostrarFechaCreacionPeli').show();
         $('#nombrep').html( pelicula.nombre);    
         $('#descripcionp').html( pelicula.descripcion); 
         $('#fechaCreacionp').html( pelicula.fechaCreacion); 
@@ -25,6 +38,48 @@ function MuestraPelicula(pelicula)
         $('#imagen2p').attr('src','/' +pelicula.imagen2);    
         
     }
+
+    var mostroDescsPeli = 0;
+    var mostroCantPelis = 0;
+    var mostroFechaCreacionsPeli = 0;
+    
+    function MostrarInfoDescp(){
+    
+        
+        if(mostroDescsPeli == 0){
+            mostroDescsPeli = 1;
+            $('#descripcionp').show();  
+           
+        }else{
+            mostroDescsPeli = 0;
+            $('#descripcionp').hide();  
+        }
+    }
+    function MostrarInfoCantPelis(){
+        if(mostroCantPelis == 0){
+            mostroCantPelis = 1;
+            $('#cantPelis').show();  
+          
+        }
+        else{
+            mostroCapituloss = 0;
+            $('#cantPelis').hide();   
+    }
+    }
+    function MostrarInfoFechaCreacionsPeli(){
+        if(mostroFechaCreacionsPeli == 0){
+            mostroFechaCreacionsPeli = 1;
+            $('#fechaCreacionsPeli').show(); 
+            
+            
+        }
+        else{
+            mostroFechaCreacionsPeli = 0; 
+            $('#fechaCreacionPeli').hide(); 
+    }
+    }
+    
+    
 
     function TraeInfoSerie(id)
 {
@@ -50,6 +105,32 @@ function MuestraPelicula(pelicula)
 
 
 function MuestraPersonajesSerie(personajes)
+{
+    textopersonajes= "";
+    
+    personajes.forEach(perso => {
+        console.log(perso);
+
+        textopersonajes= textopersonajes + "<div class='col-md-3 col-6 img-circle-container'>"
+        
+        vermas="/Home/UnPersonaje?idPersonaje="+perso.idPersonaje;
+        textopersonajes= textopersonajes + " <a href="+vermas+" ><img class='img-circle' style='left:20px' src='/" + perso.imagen1  + "' /> </a>"; 
+       // textopersonajes= textopersonajes + "<b>" + perso.nombre  + "</b>"; 
+        textopersonajes= textopersonajes +"</a>";
+        textopersonajes= textopersonajes + "</div>"
+        
+        
+    });
+    //aca recorrer el foreach y armar el html y guardarlo en textopersonajes
+    
+    $('#personajes').html(textopersonajes); 
+    
+
+
+                    
+}
+
+function MuestraPersonajesPelicula(personajes)
 {
     textopersonajes= "";
     

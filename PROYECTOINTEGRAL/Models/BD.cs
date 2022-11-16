@@ -7,7 +7,7 @@ namespace PROYECTOINTEGRAL.Models{
     public class BD {
         
      private static string _connectionString = 
-        @"Server=A-PHZ2-CIDI-036;
+        @"Server=A-PHZ2-CIDI-028;
         DataBase=DISNEY;Trusted_Connection=True;";
 
 //a. ObtenerPersonajes(): Devuelve una lista con todos los personajes
@@ -25,6 +25,15 @@ public static List<Personaje> ObtenerPersonajesSerie(int idSerie){
         string sql = "SELECT * FROM  Personaje WHERE IdSerie = @pIdSerie";
         using(SqlConnection db = new SqlConnection(_connectionString)){
                 lista = db.Query<Personaje>(sql,new {pIdSerie=idSerie}).ToList();
+            }
+        return lista;
+    }
+
+public static List<Personaje> ObtenerPersonajesPelicula(int idPelicula){
+        List<Personaje>  lista = new List<Personaje> ();
+        string sql = "SELECT * FROM  Personaje WHERE IdPelicula = @pIdPelicula";
+        using(SqlConnection db = new SqlConnection(_connectionString)){
+                lista = db.Query<Personaje>(sql,new {pIdPelicula=idPelicula}).ToList();
             }
         return lista;
     }
