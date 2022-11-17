@@ -137,7 +137,7 @@ header p:hover::after{
   color:#ffffff; 
 }
 
-
+#infopelicula,
 #infoserie {
   /*background-color: white;*/
   font-family: 'Nunito', sans-serif;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M2kjusy1mVcFEIIyedU3EPjs17Os2f1DadzOsyLxo+U=",
+  "Hash": "BMotxTiqdLA/gKG+IBqiOkwhFX8j9rA50X2p57jGwFs=",
   "Source": "PROYECTOINTEGRAL",
   "BasePath": "_content/PROYECTOINTEGRAL",
   "Mode": "Default",
@@ -2125,6 +2125,23 @@
       "OriginalItemSpec": "wwwroot\\MADDIEROONEY2.png"
     },
     {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\mario.jfif",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "mario.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mario.jfif"
+    },
+    {
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\MARLIN1.jpg",
       "SourceId": "PROYECTOINTEGRAL",
       "SourceType": "Discovered",
@@ -2514,6 +2531,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PHINEAS2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\phineasyferbb.jpg",
+      "SourceId": "PROYECTOINTEGRAL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\",
+      "BasePath": "_content/PROYECTOINTEGRAL",
+      "RelativePath": "phineasyferbb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\phineasyferbb.jpg"
     },
     {
       "Identity": "C:\\Users\\47297659\\Downloads\\PROYECTOINTEGRAL\\PROYECTOINTEGRAL\\wwwroot\\PHINEASYFERBSERIE1.jpg",

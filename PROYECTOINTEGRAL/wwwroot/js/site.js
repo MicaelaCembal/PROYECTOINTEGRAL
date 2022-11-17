@@ -1,6 +1,4 @@
-﻿
-
-function TraeInfoPeli(id)
+﻿function TraeInfoPeli(id)
 {
     $.ajax({
         url: '/peliculas/TraeInfoPeli',
@@ -58,24 +56,24 @@ function MuestraPelicula(pelicula)
     function MostrarInfoCantPelis(){
         if(mostroCantPelis == 0){
             mostroCantPelis = 1;
-            $('#cantPelis').show();  
+            $('#cantPeliculasp').show();  
           
         }
         else{
-            mostroCapituloss = 0;
-            $('#cantPelis').hide();   
+            mostroCantPelis = 0;
+            $('#cantPeliculasp').hide();   
     }
     }
     function MostrarInfoFechaCreacionsPeli(){
         if(mostroFechaCreacionsPeli == 0){
             mostroFechaCreacionsPeli = 1;
-            $('#fechaCreacionsPeli').show(); 
+            $('#fechaCreacionp').show(); 
             
             
         }
         else{
             mostroFechaCreacionsPeli = 0; 
-            $('#fechaCreacionPeli').hide(); 
+            $('#fechaCreacionp').hide(); 
     }
     }
     
