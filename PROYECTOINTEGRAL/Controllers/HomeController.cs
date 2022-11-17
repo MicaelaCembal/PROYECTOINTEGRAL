@@ -69,7 +69,7 @@ public class HomeController : Controller
         Personaje personaje = new Personaje(idpersonaje,nombre,descripcion,vestimenta,imagen1.FileName, imagen2.FileName,idPelicula,idSerie);
         BD.AgregarPersonaje(personaje);
         
-        return View ("TodosLosPersonajes");
+        return RedirectToAction("TodosLosPersonajes", "Home");
     }
 
     
